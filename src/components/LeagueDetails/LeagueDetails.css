@@ -1,0 +1,43 @@
+.leagueDetailsCard {
+    /* background: linear-gradient( 270deg, #05f0ff 30%, #963cff) #963cff; */
+    border-radius: 20px;
+    background-color: #e90052;
+}
+.leagueDetails {
+     color: white;
+    font-weight: bold;
+    background: rgba(55,0,60,.9);
+}
+.iconSize {
+    font-size: 60px;
+}
+.fbLogo {
+    color: #4267B2;
+}
+.twitterLogo {
+    color: #1DA1F2;
+}
+.youtubeLogo {
+    color: #FF0000;
+}
+
+.badgeHeaderImage{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width:10%!important;
+}
+.bannerHeaderImage{
+    opacity:0.3;
+    height:10rem;
+}
+@media (min-width:1600px){
+    .badgeHeaderImage{
+        top:12%!important;
+    }
+}
+@media (max-width:1599px){
+    .badgeHeaderImage{
+        top:20%!important;
+    }
+}
