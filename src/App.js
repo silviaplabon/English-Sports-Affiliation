@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import Leagues from './components/Leagues/Leagues';
 import LeagueDetail from './components/LeagueDetails/LeagueDetail';
 import Header from './components/Header/Header';
+import NoMatch from './components/NoMatch/NoMatch';
 function App() {
   return (
     <Router>
@@ -24,6 +25,9 @@ function App() {
         <Route exact path="/">
              <Home/>
         </Route>
+        <Route path="*">
+            <NoMatch />
+          </Route>
       </Switch>
     </Router>
   );

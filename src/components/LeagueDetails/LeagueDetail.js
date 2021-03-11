@@ -10,6 +10,7 @@ import Header from '../Header/Header';
 const LeagueDetail = () => {
     const { id } = useParams();
     const [league, setLeagueDetail] = useState([])
+
     useEffect(() => {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${id}`)
             .then(response => response.json())
@@ -43,8 +44,8 @@ const LeagueDetail = () => {
                             </div>
                         </div>
                         <div className="col-md-6 leagueDetailsImage my-2">
-                            {strGender === "Male" ? <img src={MaleImage} alt="..." className="h-100 w-100" /> :
-                                <img src={FemaleImage} alt="..." className="h-100 w-100" alt="image not shown" />}
+                            {strGender === "Female" ? <img src={FemaleImage} alt="..." className="h-100 w-100" /> :
+                                <img src={MaleImage} alt="..." className="h-100 w-100" alt="image not shown" />}
                         </div>
                     </div>
                 </div>

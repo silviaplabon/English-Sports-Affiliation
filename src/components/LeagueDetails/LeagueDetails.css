@@ -1,12 +1,14 @@
 .leagueDetailsCard {
-    /* background: linear-gradient( 270deg, #05f0ff 30%, #963cff) #963cff; */
+     background: linear-gradient( 270deg, #05f0ff 30%, #963cff) #963cff; 
     border-radius: 20px;
-    background-color: #e90052;
 }
 .leagueDetails {
      color: white;
     font-weight: bold;
-    background: rgba(55,0,60,.9);
+    background-color:#36003c;
+}
+p{
+    font-weight:100;
 }
 .iconSize {
     font-size: 60px;
@@ -22,22 +24,27 @@
 }
 
 .badgeHeaderImage{
-    position: absolute;
+    position: absolute; 
     left: 50%; 
+    top:15%;
     transform: translate(-50%, -50%);
     width:10%!important;
 }
 .bannerHeaderImage{
     opacity:0.3;
-    height:10rem;
+    height:14rem;
 }
-@media (min-width:1600px){
-    .badgeHeaderImage{
-        top:12%!important;
-    }
+
+@media only screen and (min-device-width: 150px) and (max-device-width: 1200px) {
+        .bannerHeaderImage{
+            height:15rem!important;
+        } 
+        .badgeHeaderImage{
+            width:30%!important;
+        }
 }
-@media (max-width:1599px){
-    .badgeHeaderImage{
-        top:20%!important;
-    }
+@media (min-device-height: 1000px) {
+    .bannerHeaderImage{
+        height:20rem!important;
+    } 
 }

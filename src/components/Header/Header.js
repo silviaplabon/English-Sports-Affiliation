@@ -6,7 +6,7 @@ const Header = (props) => {
             {
                 props.state === true ?
                     <div className="headerBanner">
-                        <h1>silvia</h1>
+                        <h1 className="display-2" style={{color:"white"}}>English Sports Affiliation</h1>
                     </div>
                     :
                     props.children

@@ -11,22 +11,23 @@ const Home = () => {
             .then(response => response.json())
             .then(data => setLeagues(data.countrys))
     }, [])
-    console.log(leagues)
-    
+
     return (
         <div className="homeSection">
-            <div className="homeHeader">
+            <div className="homeHeader mb-0 pb-0">
                 <Header state={true}>
                 </Header>
             </div>
-            <div className="homeDetails container">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3  mt-4 g-4">
-                    {
-                        leagues.map(league => <Leagues league={league}></Leagues>)
-                    }
+            <div className="homeDetails">
+                <div className="container">
+                    <div className="row pt-5">
+                        {
+                            leagues.map(league => <Leagues league={league}></Leagues>)
+                        }
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
     )
 };
 

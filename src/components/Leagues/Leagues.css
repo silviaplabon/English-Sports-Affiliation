@@ -16,19 +16,3 @@
     /* color: */
     padding:0px;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
-    .leagueName{
-        font-size:16px;
-    }
-    .sportName{
-        font-size:14px;
-    }
-}
-@media only screen and (min-device-width: 200px) and (max-device-width: 500px) {
-    .leagueName{
-        font-size:12px;
-    }
-    .sportName{
-        font-size:10px;
-    }
-}
