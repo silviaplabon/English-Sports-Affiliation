@@ -1,5 +1,6 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useHistory } from 'react-router';
 import './Leagues.css'
 const Leagues = (props) => {

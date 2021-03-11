@@ -1,7 +1,4 @@
 import React, { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
 import Header from '../Header/Header';
 import Leagues from '../Leagues/Leagues'
