@@ -1,7 +1,7 @@
 # English Sports Affiliation
 This Website developed by React,React-Router,React-hooks,HTML,CSS,Bootstrap
 
-Github Repository: [English Sports Affiliation](https://github.com/Porgramming-Hero-web-course/react-router-silviaplabon).
+Github Repository: [English Sports Affiliation](https://github.com/silviaplabon/English-Sports-Affiliation).
 
 Live link: [English Sports Affiliation](https://blissful-shirley-3e9284.netlify.app).
 
